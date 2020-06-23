@@ -65,7 +65,7 @@ function saveDrawing(){
 function gotData(data){
   var elts = selectAll('.listing');
   for(var l = 0; l < elts.length; l++){
-    elts[i].remove();
+    elts[l].remove();
   }
   var drawings = data.val();
   var keys = Object.keys(drawings);
